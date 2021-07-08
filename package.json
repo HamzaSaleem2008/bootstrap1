@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"npm run lite install",
-    "test":"echo \"Error: no test specified\" && exit 1",
-    "lite":"lite-server"
+    "start": "npm run lite install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/HamzaSaleem2008/bootstrap1/issues"
   },
-  "homepage": "https://github.com/HamzaSaleem2008/bootstrap1#readme"
+  "homepage": "https://github.com/HamzaSaleem2008/bootstrap1#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
